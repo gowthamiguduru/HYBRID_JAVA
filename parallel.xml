@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" thread-count="5" parallel="tests">
+    
+  <test name="firefoxtest">
+    <parameter name="os" value="windows"></parameter>
+    <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="testCases.TC001_AccountRigistration"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="edgetest">
+    <parameter name="os" value="windows"></parameter>
+    <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="testCases.TC001_AccountRigistration"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   
+</suite> <!-- Suite -->
